@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+		<style>
+			body {
+				font-family: "Arial", sans-serif;
+				background-color: #f8f9fa;
+			}
+
+			.left-column {
+				width: 100%;
+				background-color: #f0f0f0;
+				padding: 20px;
+				border-radius: 8px;
+				text-align: center;
+				margin-bottom: 20px;
+			}
+
+			.image-container img {
+				width: 100%;
+				height: auto;
+				border-radius: 8px;
+			}
+
+			.tagline,
+			.fun-facts {
+				margin-top: 20px;
+			}
+
+			.header {
+				background-color: #808080;
+				text-align: center;
+				color: #fff;
+			}
+
+			.container-fluid {
+				padding: 20px;
+			}
+
+			.right-column {
+				width: 100%;
+				background-color: #fff;
+				padding: 20px;
+				border-radius: 8px;
+			}
+
+			.about-me-header {
+				text-align: center;
+			}
+
+			.about-me-content {
+				margin-top: 20px;
+			}
+
+			.about-me-content p {
+				margin-bottom: 10px;
+			}
+
+			.social-icons {
+				margin-top: 20px;
+				text-align: center;
+			}
+
+			.social-link {
+				display: inline-block;
+				margin-right: 15px;
+				text-decoration: none;
+			}
+
+			.social-link img {
+				max-width: 40px;
+			}
+
+			.programming-portfolio-header {
+				background-color: #808080;
+				text-align: center;
+				color: #fff;
+			}
+
+			.project-card {
+				margin-top: 20px;
+				border: 1px solid #ddd;
+				border-radius: 10px;
+				box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+			}
+
+			.project-card img {
+				max-width: 100%;
+				height: 120px;
+				object-fit: contain;
+				border-top-left-radius: 10px;
+				border-top-right-radius: 10px;
+				margin: 0 auto;
+			}
+
+			.project-card-body {
+				padding: 15px;
+				text-align: center;
+				min-height: 160px;
+			}
+
+			.view-project-link {
+				display: inline-block;
+				margin-top: 10px;
+			}
+		</style>
+		<title>Your Portfolio</title>
+	</head>
+	<body>
+		<div class="header">
+			<h1>GITHUB - About Me Page</h1>
+		</div>
+
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="left-column">
+						<div class="image-container">
+							<img src="frog.png" alt="Jester Perez" />
+						</div>
+						<h2>forg</h2>
+						<div class="social-cards">
+							<button class="btn btn-primary" disabled>Cool</button>
+							<button class="btn btn-primary" disabled>Calm</button>
+							<button class="btn btn-primary" disabled>Collected</button>
+						</div>
+						<p>Social Media Accounts:</p>
+						<div class="social-icons">
+							<a href="https://www.facebook.com/jstrprz" class="social-link"
+								><img src="facebook.png" alt="Facebook"
+							/></a>
+							<a href="https://twitter.com/jisiqt" class="social-link"
+								><img src="twitter.png" alt="Twitter"
+							/></a>
+							<a href="https://github.com/jessyforg" class="social-link"
+								><img src="github.png" alt="Github"
+							/></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-8">
+					<div class="right-column">
+						<div class="about-me-header">
+							<h2>About Me</h2>
+						</div>
+						<div class="about-me-content">
+							<p>
+								Hola, my name is Jester A. Perez. I'm currently a second year BSIT here at the
+								University of the Cordilerras.
+							</p>
+							<p><strong>Hobbies:</strong></p>
+							<ul>
+								<li>Playing Ukulele</li>
+								<li>Gaming</li>
+								<li>Driving</li>
+								<li>Sleeping</li>
+								<li>Eating</li>
+							</ul>
+							<hr />
+							<p>"If you won't improve yourself, who will?"</p>
+						</div>
+
+						<div class="programming-portfolio-header">
+							<h2>Programming Portfolio</h2>
+						</div>
+
+						<!--Projects -->
+						<div class="row">
+							<div class="col-md-6">
+								<div class="project-card">
+									<!-- Project 1 -->
+									<div class="card-body project-card-body">
+										<h3 class="card-title">Project 1</h3>
+										<p class="card-text">Progress Bar</p>
+										<img class="card-img-top" src="Progress.png" alt="Progress-Bar" />
+										<a
+											href="https://jessyforg.github.io/Progress/"
+											class="btn btn-primary view-project-link"
+											>View Project</a
+										>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-6">
+								<div class="project-card">
+									<!-- Project 2 -->
+									<div class="card-body project-card-body">
+										<h3 class="card-title">Project 2</h3>
+										<p class="card-text">Register</p>
+										<img class="card-img-top" src="Register.png" alt="Register" />
+										<a
+											href="https://jessyforg.github.io/Register/"
+											class="btn btn-primary view-project-link"
+											>View Project</a
+										>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
